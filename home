@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Writer // Tech Explorer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">[Mitch Harris]</a>
+            <div class="nav-links">
+                <a href="#work">Projects_</a>
+                <a href="#writing">Terminal_</a>
+                <a href="#about">Manifest_</a>
+                <a href="#contact" class="contact-button">Initialize Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="profile-section">
+                    <div class="profile-image">
+                        <img src="public/profile.png" alt="Profile Picture" class="avatar">
+                    </div>
+                    <h1>[ hey, mitch ]</h1>
+                    <p class="subtitle">Tech // Fiction //  Business</p>
+                    <div class="cta-buttons">
+                        <a href="#work" class="primary-button">View_Projects.exe</a>
+                        <a href="#contact" class="secondary-button">Initialize_Contact.sh</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-section">
+            <div class="container">
+                <h2>// Active_Projects</h2>
+                <p class="section-subtitle">[ Current system processes and explorations ]</p>
+                
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Project_Alpha</h3>
+                            <p>Exploring the digital frontiers of tomorrow through code and creativity.</p>
+                            <a href="#" class="project-link">./explore.sh →</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Project_Beta</h3>
+                            <p>Building bridges between human consciousness and digital realms.</p>
+                            <a href="#" class="project-link">./explore.sh →</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Project_Gamma</h3>
+                            <p>Crafting digital oases in the vast expanse of the web.</p>
+                            <a href="#" class="project-link">./explore.sh →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="writing" class="writing-section">
+            <div class="container">
+                <h2>// Terminal_Output</h2>
+                <p class="section-subtitle">[ System logs and digital manifestos ]</p>
+                
+                <div class="articles-grid">
+                    <article class="article-card">
+                        <h3>Debug_Log_001</h3>
+                        <p>Traversing the digital dunes of modern technology...</p>
+                        <a href="#" class="read-more">cat log_001.txt →</a>
+                    </article>
+                    <article class="article-card">
+                        <h3>Debug_Log_002</h3>
+                        <p>Decoding the signals from tomorrow's tech frontier...</p>
+                        <a href="#" class="read-more">cat log_002.txt →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>// System_Manifest</h2>
+                <div class="about-content">
+                    <p>Digital nomad traversing the technological frontiers. Crafting code in the silicon wilderness. Exploring the intersection of human consciousness and digital reality.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="threads" class="threads-section">
+            <div class="container">
+                <h2>// System_Logs</h2>
+                <p class="section-subtitle">[ Thought streams and digital dispatches ]</p>
+                
+                <div class="twitter-thread">
+                    <article class="thread-post">
+                        <div class="thread-meta">
+                            <span class="thread-id">#0xFF</span>
+                            <span class="thread-date">2024.03.14</span>
+                        </div>
+                        <div class="thread-content">
+                            <p>Just deployed a new neural interface for processing quantum data streams. The results are... unexpected. 🤖</p>
+                            <p>1/4 First observation: The quantum fluctuations seem to follow</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+                <p class="copyright">© 2024 [YourName] // All systems operational</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
